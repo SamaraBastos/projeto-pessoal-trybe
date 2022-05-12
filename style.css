@@ -14,8 +14,17 @@ body{
 
   #minha_foto{
     width: 190px;
-   
-padding-top: 100px;
+   padding-top: 100px;
+ }
 
-
-  }
+#licoes_aprendidas{
+  display: inline-block;
+  width: 25%;
+  height: 150px;
+}
+ #licoes_a_aprender{
+    width: 150px;
+    height: 140px;
+    float: left;
+    top: 200px;
+}
