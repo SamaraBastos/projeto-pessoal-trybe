@@ -1,25 +1,94 @@
 body{
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
+  margin: 100px;
+  border: 50px;
 }
+
+
 
 #cabecalho {
-    background-color: black;
-    color: bisque;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 100px;
-  }
-
-  #minha_foto{
-    width: 190px;
-   padding-top: 100px;
- }
-
-#licoes_aprendidas{
-
+  background-color: black;
+  color: bisque;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-shadow: 5px 5px 5px #575454;
 }
- #licoes_a_aprender{
 
+#minha_foto{
+  background-color: black;
+  width: 300px;
+  border-radius: 50px;
+  max-width: 200px;
+
+  border: 8px solid rgb(46, 37, 37);
+}
+h2{
+  text-shadow: 5px 5px 5px #575454;
+  padding: auto;
+}
+
+#linkedin{
+  max-width: 20px;
+}  
+
+
+
+#licoes_aprendidas {
+  display: block;
+  margin-left : 15px;
+  margin-right : 15px;
+  font-size : 20px;
+  line-height:normal;
+  box-shadow : 3px 3px rgb(231, 216, 216), -1em 0 0.4em rgb(17, 17, 17);
+  
+}
+
+#licoes_a_aprender {
+ display : block;
+ margin-left: 15px;
+ margin-right: 15px;
+ font-size: 20px;
+ unicode-bidi: isolate;
+ line-height:normal;
+ box-shadow: 3px 3px rgb(231, 216, 216), -1em 0 0.4em rgb(17, 17, 17);
+}
+
+footer{
+  background-color: black;
+  color: wheat;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  line-height:normal;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-shadow: 5px 5px 5px #575454;
+}
+
+
+.lado-direito{
+background-color: rgb(219, 219, 219);
+font-size: 20px;
+height: 50px;
+text-align: center;
+line-height :normal;
+width: 300px;
+display: inline-block;
+float: right;
+}
+
+.lado-esquerdo{
+  background-color: rgb(170, 142, 106);
+  font-size: 20px;
+  height: 50px;
+  text-align: center;
+  line-height: normal;
+  width: 300px;
+  display: inline-block;
+  float: left;
 }
